@@ -1,0 +1,239 @@
+// ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+//  Base styles            
+
+// ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+.viz-article {
+	margin: 0 auto;
+	padding: 5px 20px;
+	height: 100%;
+	color: $txt-black;
+	font-size: 15px;
+	font-family: $zsans;
+	text-rendering: optimizeLegibility;
+	overflow: hidden;
+}
+
+.viz-container {
+	position: relative;
+}
+
+.viz-content-block {
+	@include pie-clearfix;
+	margin: 0 0 40px;
+}
+
+.viz-hed {
+	@include trans(0.2s, text-align, ease-in-out);
+	margin: 0 0 20px;
+	padding: 8px 15px 9px;
+	background: $txt-black;
+	color: white;
+	font-weight: 600;
+	font-size: 22px;
+	font-family: $slab;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.viz-hed-fastco {
+	font-family: $condensed;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+}
+
+.viz-subhead {
+	display: inline-block;	
+	margin: 0 0 6px;
+	font-weight: 600;
+	font-size: 18px;
+	font-family: $slab;
+	line-height: 100%;
+}
+
+.viz-subhead-fastco {
+	font-family: $zsans;
+}
+
+.viz-smallcaps {
+	text-transform: uppercase;
+	letter-spacing: .75px;
+	font-weight: 500;
+	font-size: 12px;
+	font-family: $slab;
+	line-height: 120%;
+}
+
+.viz-detail {
+    color: $med-gray;
+    text-transform: none;
+    font-weight: 400;
+}
+
+.viz-copy {
+	@include trans(0.2s, text-align, ease-in-out);
+	margin: 0 0 15px;
+	color: $txt-black;
+	font-size: 16px;
+	line-height: 150%;
+}
+
+.viz-leadin {
+	font-weight: 500;
+	color: $txt-black;
+	text-transform: uppercase;
+}
+
+.viz-intro-leadin {
+	font-weight: 500;
+	font-size: 12px;
+	font-family: $slab;
+}
+
+.viz-source {
+	display: block;
+	margin: 0 0 7px;
+	padding-top: 7px;
+	border-top: 1px solid $light-gray;
+	color: $med-gray;
+	letter-spacing: .75px;
+	font-weight: 400;
+	font-size: 12px;
+	font-family: $slab;
+	line-height: 140%;
+}
+
+.viz-underline {
+	margin-top: 0;
+	color: $txt-black;
+	font-weight: 300;
+	line-height: 140%;
+}
+
+.viz-byline {
+	letter-spacing: .5px;
+	line-height: 90%;
+}
+
+.viz-footer {
+	padding-top: 10px;
+	border-top: 7px solid $txt-black;
+}
+
+
+
+// QUIZ
+// ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+.viz-questions {
+	margin: 0;
+	padding: 0;
+}
+
+.viz-question {
+	position: relative;
+	margin-bottom: 10px;
+	padding: 15px 0 0;
+	list-style-type: none;
+	&:nth-of-type(1) {
+		border-top: none;
+		padding-top: 0px;
+	}
+}
+
+.viz-question-copy {
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.viz-quiz-subhead {
+	border-bottom: 1px solid $light-gray;
+	width: 100%;
+	padding-bottom: 5px;
+}
+
+.viz-choices {
+	padding: 0;
+	margin-left: 15px;
+}
+
+.viz-choice {
+	list-style-type: none;
+	cursor: pointer;
+	&:hover {
+		.viz-target {
+			opacity: 1;
+		}
+		.viz-choice-copy {
+			color: $txt-black;
+		}
+	}
+}
+
+.viz-choice-correct {
+	cursor: default;
+	.viz-choice-copy {
+		color: $txt-black;
+		font-weight: 500;
+	}
+	.viz-target {
+		background-position: 0 -30px;
+		opacity: 1;
+	}
+	&:hover {
+		.viz-choice-copy {
+			color: $txt-black;
+		}
+	}
+}
+
+.viz-choice-incorrect {
+	cursor: default;
+	.viz-target {
+		background-position: 0 -45px;
+		opacity: 0.3;
+	}
+}
+
+.viz-choice-disabled {
+	&:hover {
+		.viz-choice-copy {
+			color: $med-gray;
+		}
+		.viz-target {
+			opacity: 0.3;
+		}
+	}
+}
+
+.viz-choice-copy {
+	@include trans(0.2s, color, ease-in-out);
+	margin: -2px 0px 5px 20px;
+	line-height: 130%;
+	color: $med-gray;
+	display: inline-block;
+}
+
+.viz-target {
+	@include trans(0.2s, opacity, ease-in-out);
+	@include inline-block;
+	position: absolute;
+	opacity: 0.5;
+	background: url('../img/choice_targets.png') 0px 0px no-repeat;
+	background-size: 15px;
+	height: 15px;
+	width: 15px;
+}
+
+.viz-answer {
+	display: none;
+	font-size: 14px;
+	margin: -4px 0 5px 20px;
+}
+
+
+
+

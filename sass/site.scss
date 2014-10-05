@@ -1,0 +1,36 @@
+// ============================================= 
+
+//  Base SCSS                
+
+// ============================================= 
+
+
+//  Imports            
+// =============================================
+@import "compass/css3";
+@import "compass/utilities/general/clearfix";
+@import "partials/mixins";
+@import "partials/type";
+@import "partials/variables";
+
+
+//  Modules            
+// =============================================
+@import "partials/base";
+
+
+//  FOR DEMO PAGE ONLY           
+// =============================================
+
+*, *:before, *:after { -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; box-sizing: border-box;
+ }
+
+body {
+	margin: 0 auto;
+	max-width: 700px;
+	// padding: 15px 20px; 
+	@media (min-width: $small) {
+		// padding: 30px 20px; 
+	}
+}

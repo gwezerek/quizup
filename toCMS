@@ -1,0 +1,36 @@
+
+[widget name=widgetCustomContent config=][/widget]
+
+
+<div class="viz-article" id="viz-pym">
+	<script>
+		// var graphicURL = "http://infographics.fastcompany.com/fastcompany/4-29-14-june-recommender/index.html";
+		var graphicURL = "http://www.guswezerek.com/projects/june_recommender/";
+		$.getScript("https://cdn.rawgit.com/nprapps/pym.js/master/src/pym.js", function(){
+		    pym.Parent('viz-pym', graphicURL, {});
+		 });
+	</script>
+</div>
+
+
+window.FC = window.FC || {};
+window.FC.inlineFunctions = window.FC.inlineFunctions || {};
+window.FC.inlineFunctions.graphicScript = function() {
+	// main.js code here
+};
+
+require(['/js/vendor/d3.min.js', 'http://d3js.org/queue.v1.min.js', 'http://d3js.org/topojson.v1.min.js'], function(d3, queue, topojson) {
+	window.d3 = d3;
+	window.queue = queue;
+	window.topojson = topojson;
+	window.FC.inlineFunctions.graphicScript();
+});
+
+
+var pymChild = new pym.Child();
+pymChild.sendHeightToParent();
+
+
+
+// WEIRD MAGAZINE SPACE (highlight line below)
+ ­

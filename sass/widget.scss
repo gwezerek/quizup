@@ -1,0 +1,82 @@
+// =============================================
+
+//  Base SCSS
+
+// =============================================
+
+
+//  Imports            
+// =============================================
+@import "compass/css3";
+@import "compass/utilities/general/clearfix";
+@import "partials/mixins";
+@import "partials/variables";
+
+
+//  Modules            
+// =============================================
+@import "partials/base";
+
+
+
+
+
+
+// ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+// FastCo Workarounds
+
+// ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+.prose.body {
+
+	// General FC resets
+
+	* {
+		-webkit-font-smoothing: subpixel-antialiased;
+	}
+
+	p, p:first-child, p:first-line {
+		font-family: inherit !important;
+		color: inherit;
+		font-weight: inherit !important;
+	}
+
+	label {
+		margin: 0;
+	}
+
+
+	ol {
+		list-style-type: none;
+		line-height: 100%;
+	}
+
+	ul {
+		margin: 0;
+		list-style-type: none !important;
+	}
+
+	ol>li {
+		width: auto;
+	}
+
+	ol>li:before {
+		position: static;
+	}
+
+	ul>li:before {
+		content: none;
+	}	
+
+
+	// Graphic-specific resets
+
+}
+
+// Graphic-specific resets
+
+
+
+
+

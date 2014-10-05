@@ -1,0 +1,330 @@
+/* line 757, ../sass/partials/_mixins.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* !============================================= */
+/* ! Variables						  			  */
+/* !============================================= */
+/* !-- Universal ------------------------------------ */
+/* !-- Project ------------------------------------ */
+/* !-- Project ------------------------------------ */
+/* !-- Paths ------------------------------------ */
+/* line 7, ../sass/partials/_base.scss */
+.viz-article {
+  margin: 0 auto;
+  padding: 5px 20px;
+  height: 100%;
+  color: #33312e;
+  font-size: 15px;
+  font-family: "FCZizouSans", Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  overflow: hidden;
+}
+
+/* line 18, ../sass/partials/_base.scss */
+.viz-container {
+  position: relative;
+}
+
+/* line 22, ../sass/partials/_base.scss */
+.viz-content-block {
+  *zoom: 1;
+  margin: 0 0 40px;
+}
+/* line 38, ../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.viz-content-block:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 27, ../sass/partials/_base.scss */
+.viz-hed {
+  -webkit-transition: text-align 0.2s ease-in-out;
+  -moz-transition: text-align 0.2s ease-in-out;
+  -o-transition: text-align 0.2s ease-in-out;
+  transition: text-align 0.2s ease-in-out;
+  margin: 0 0 20px;
+  padding: 8px 15px 9px;
+  background: #33312e;
+  color: white;
+  font-weight: 600;
+  font-size: 22px;
+  font-family: "FCZizouSlab", Georgia, Times, Times New Roman, serif;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 41, ../sass/partials/_base.scss */
+.viz-hed-fastco {
+  font-family: "FCKaiserCond", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+/* line 48, ../sass/partials/_base.scss */
+.viz-subhead {
+  display: inline-block;
+  margin: 0 0 6px;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "FCZizouSlab", Georgia, Times, Times New Roman, serif;
+  line-height: 100%;
+}
+
+/* line 57, ../sass/partials/_base.scss */
+.viz-subhead-fastco {
+  font-family: "FCZizouSans", Helvetica, Arial, sans-serif;
+}
+
+/* line 61, ../sass/partials/_base.scss */
+.viz-smallcaps {
+  text-transform: uppercase;
+  letter-spacing: .75px;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: "FCZizouSlab", Georgia, Times, Times New Roman, serif;
+  line-height: 120%;
+}
+
+/* line 70, ../sass/partials/_base.scss */
+.viz-detail {
+  color: #99948a;
+  text-transform: none;
+  font-weight: 400;
+}
+
+/* line 76, ../sass/partials/_base.scss */
+.viz-copy {
+  -webkit-transition: text-align 0.2s ease-in-out;
+  -moz-transition: text-align 0.2s ease-in-out;
+  -o-transition: text-align 0.2s ease-in-out;
+  transition: text-align 0.2s ease-in-out;
+  margin: 0 0 15px;
+  color: #33312e;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+/* line 84, ../sass/partials/_base.scss */
+.viz-leadin {
+  font-weight: 500;
+  color: #33312e;
+  text-transform: uppercase;
+}
+
+/* line 90, ../sass/partials/_base.scss */
+.viz-intro-leadin {
+  font-weight: 500;
+  font-size: 12px;
+  font-family: "FCZizouSlab", Georgia, Times, Times New Roman, serif;
+}
+
+/* line 96, ../sass/partials/_base.scss */
+.viz-source {
+  display: block;
+  margin: 0 0 7px;
+  padding-top: 7px;
+  border-top: 1px solid #ccc6b9;
+  color: #99948a;
+  letter-spacing: .75px;
+  font-weight: 400;
+  font-size: 12px;
+  font-family: "FCZizouSlab", Georgia, Times, Times New Roman, serif;
+  line-height: 140%;
+}
+
+/* line 109, ../sass/partials/_base.scss */
+.viz-underline {
+  margin-top: 0;
+  color: #33312e;
+  font-weight: 300;
+  line-height: 140%;
+}
+
+/* line 116, ../sass/partials/_base.scss */
+.viz-byline {
+  letter-spacing: .5px;
+  line-height: 90%;
+}
+
+/* line 121, ../sass/partials/_base.scss */
+.viz-footer {
+  padding-top: 10px;
+  border-top: 7px solid #33312e;
+}
+
+/* line 131, ../sass/partials/_base.scss */
+.viz-questions {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 136, ../sass/partials/_base.scss */
+.viz-question {
+  position: relative;
+  margin-bottom: 10px;
+  padding: 15px 0 0;
+  list-style-type: none;
+}
+/* line 141, ../sass/partials/_base.scss */
+.viz-question:nth-of-type(1) {
+  border-top: none;
+  padding-top: 0px;
+}
+
+/* line 147, ../sass/partials/_base.scss */
+.viz-question-copy {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+/* line 152, ../sass/partials/_base.scss */
+.viz-quiz-subhead {
+  border-bottom: 1px solid #ccc6b9;
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+/* line 158, ../sass/partials/_base.scss */
+.viz-choices {
+  padding: 0;
+  margin-left: 15px;
+}
+
+/* line 163, ../sass/partials/_base.scss */
+.viz-choice {
+  list-style-type: none;
+  cursor: pointer;
+}
+/* line 167, ../sass/partials/_base.scss */
+.viz-choice:hover .viz-target {
+  opacity: 1;
+}
+/* line 170, ../sass/partials/_base.scss */
+.viz-choice:hover .viz-choice-copy {
+  color: #33312e;
+}
+
+/* line 176, ../sass/partials/_base.scss */
+.viz-choice-correct {
+  cursor: default;
+}
+/* line 178, ../sass/partials/_base.scss */
+.viz-choice-correct .viz-choice-copy {
+  color: #33312e;
+  font-weight: 500;
+}
+/* line 182, ../sass/partials/_base.scss */
+.viz-choice-correct .viz-target {
+  background-position: 0 -30px;
+  opacity: 1;
+}
+/* line 187, ../sass/partials/_base.scss */
+.viz-choice-correct:hover .viz-choice-copy {
+  color: #33312e;
+}
+
+/* line 193, ../sass/partials/_base.scss */
+.viz-choice-incorrect {
+  cursor: default;
+}
+/* line 195, ../sass/partials/_base.scss */
+.viz-choice-incorrect .viz-target {
+  background-position: 0 -45px;
+  opacity: 0.3;
+}
+
+/* line 203, ../sass/partials/_base.scss */
+.viz-choice-disabled:hover .viz-choice-copy {
+  color: #99948a;
+}
+/* line 206, ../sass/partials/_base.scss */
+.viz-choice-disabled:hover .viz-target {
+  opacity: 0.3;
+}
+
+/* line 212, ../sass/partials/_base.scss */
+.viz-choice-copy {
+  -webkit-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+  margin: -2px 0px 5px 20px;
+  line-height: 130%;
+  color: #99948a;
+  display: inline-block;
+}
+
+/* line 220, ../sass/partials/_base.scss */
+.viz-target {
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  position: absolute;
+  opacity: 0.5;
+  background: url("../img/choice_targets.png") 0px 0px no-repeat;
+  background-size: 15px;
+  height: 15px;
+  width: 15px;
+}
+
+/* line 231, ../sass/partials/_base.scss */
+.viz-answer {
+  display: none;
+  font-size: 14px;
+  margin: -4px 0 5px 20px;
+}
+
+/* line 35, ../sass/widget.scss */
+.prose.body * {
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+/* line 39, ../sass/widget.scss */
+.prose.body p, .prose.body p:first-child, .prose.body p:first-line {
+  font-family: inherit !important;
+  color: inherit;
+  font-weight: inherit !important;
+}
+/* line 45, ../sass/widget.scss */
+.prose.body label {
+  margin: 0;
+}
+/* line 50, ../sass/widget.scss */
+.prose.body ol {
+  list-style-type: none;
+  line-height: 100%;
+}
+/* line 55, ../sass/widget.scss */
+.prose.body ul {
+  margin: 0;
+  list-style-type: none !important;
+}
+/* line 60, ../sass/widget.scss */
+.prose.body ol > li {
+  width: auto;
+}
+/* line 64, ../sass/widget.scss */
+.prose.body ol > li:before {
+  position: static;
+}
+/* line 68, ../sass/widget.scss */
+.prose.body ul > li:before {
+  content: none;
+}

@@ -1,0 +1,98 @@
+/* !============================================= */
+
+/* ! Variables						  			  */ 
+
+/* !============================================= */
+
+/* !-- Universal ------------------------------------ */
+
+$blue: #1d78af;
+
+$selection-color: $blue;
+$selection-color-type: #FFF;
+
+$link: $blue;
+$link-hover: darken($link, 8%);
+
+
+
+
+$sans: "MuseoSans",Helvetica,Arial,sans-serif;
+$zsans: "FCZizouSans", Helvetica, Arial, sans-serif;;
+$xcondensed: "FCKaiserXCond", Helvetica, Arial, sans-serif;
+$condensed: "FCKaiserCond", Helvetica, Arial, sans-serif;
+$slab: "FCZizouSlab", Georgia,Times,Times New Roman,serif;
+$serif: "CaslonFS", Georgia,Times,Times New Roman,serif;
+$mono: "Courier New",Courier,mono;
+
+
+/* !-- Project ------------------------------------ */
+
+// Sizes
+$small: 500px;
+$smedium: 680px;
+$medium: 981px;
+$large: 1000px;
+$xlarge: 1280px;
+$xxlarge: 1480px;
+
+//Colors
+$bground-1:	rgb(243,255,129);
+$bground-2:	rgb(201,255,129);
+$bground-3:	rgb(158,255,129);
+$bground-4:	rgb(129,255,141);
+$bground-5:	rgb(129,255,183);
+$bground-6:	rgb(129,255,225);
+$bground-7:	rgb(129,242,255);
+$bground-8:	rgb(129,200,255);
+$bground-9:	rgb(129,159,255);
+$bground-10: rgb(140,129,255);
+$bground-11: rgb(183,129,255);
+$bground-12: rgb(224,129,255);
+$bground-13: rgb(255,129,244);
+$bground-14: rgb(255,129,201);
+$bground-15: rgb(255,138,128);
+$bground-16: rgb(255,181,129);
+$bground-17: rgb(255,223,128);
+
+$p-bground-1: rgb(231,187,32);
+$p-bground-2: rgb(76,192,173);
+$p-bground-3: rgb(162,91,152);
+$p-bground-4: rgb(17,138,203);
+$p-bground-5: rgb(161,151,130);
+$p-bground-6: rgb(86,197,208);
+$p-bground-7: rgb(245,130,32);
+$p-bground-8: rgb(178,210,153);
+$p-bground-9: rgb(229,90,120);
+
+//"Gray"scale
+$black-10:	rgb(255, 247, 231);
+$black-20:	rgb(230, 223, 209);
+$black-30:	rgb(204, 198, 185);
+$black-40:	rgb(179, 173, 162);
+$black-50:	rgb(153, 148, 138);
+$black-60:	rgb(128, 124, 116);
+$black-70:	rgb(102, 99, 93);
+$black-80:	rgb(77, 74, 69);
+$black-90:	rgb(51, 49, 46);
+$black-100:	rgb(25, 25, 20);
+
+// Colloquial grays
+$bground-gray: rgb(230,230,230);
+$light-gray: $black-30;
+$med-gray: $black-50;
+$dark-gray: $black-70;
+$txt-black: $black-90;
+
+$bground: white;
+$accent: $txt-black;
+
+
+/* !-- Project ------------------------------------ */
+
+
+
+/* !-- Paths ------------------------------------ */
+
+$rgba-bg-path: "rgba-bg/";
+$svg-path: "icons/";
