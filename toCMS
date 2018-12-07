@@ -6,7 +6,7 @@
 	<script>
 		// var graphicURL = "http://infographics.fastcompany.com/fastcompany/4-29-14-june-recommender/index.html";
 		var graphicURL = "http://www.guswezerek.com/projects/june_recommender/";
-		$.getScript("https://cdn.rawgit.com/nprapps/pym.js/master/src/pym.js", function(){
+		$.getScript("https://cdn.jsdelivr.net/gh/nprapps/pym.js/src/pym.js", function(){
 		    pym.Parent('viz-pym', graphicURL, {});
 		 });
 	</script>
